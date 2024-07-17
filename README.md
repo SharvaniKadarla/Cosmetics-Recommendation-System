@@ -9,19 +9,24 @@ This project introduces a Cosmetics Recommendation System to simplify skincare p
 - Collected cosmetics data from an online retailer.
 - Included essential attributes like product type, brand, notable effects, suitable skin types, and price.
 - Applied data preprocessing techniques to ensure dataset quality and integrity.
+
 **2. Exploratory Data Analysis (EDA):**
 - Conducted in-depth exploration to understand product type distribution, popular brands, notable effects, and suitable skin types.
 - Utilized visualizations such as bar graphs, pie charts, and histograms to present key findings and industry trends.
+
 **3. TF-IDF (Term Frequency - Inverse Document Frequency) Vectorization:**
 - Utilized TF-IDF vectorization to convert textual data (notable effects descriptions) into numerical representations.
 - Captured the importance of words within each notable effects category for meaningful product comparisons.
+
 **4. Cosine Similarity Calculation:**
 - Computed cosine similarity based on the TF-IDF matrix to quantify similarity between cosmetics products.
 - Identified products with similar notable effects profiles to facilitate personalized recommendations.
+
 **5. Recommendation Generation:**
 - Developed a user-friendly website using Streamlit where users can input product names.
 - Generated recommendations for skincare products closely matching a given product based on cosine similarity scores.
 - Enabled users to interact with the website to retrieve top recommendations based on notable effects similarities.
+
 **6. Deployment and Integration:**
 - Deployed the recommendation system as part of an interactive web application using Streamlit.
 - Enabled seamless access to personalized recommendations and integration with e-commerce platforms for streamlined purchasing.
@@ -104,21 +109,26 @@ Cosine Similarity Matrix:
 
 **1. Initialization and Configuration**
 - **Streamlit Setup:** Initialize Streamlit and configure page settings such as title, icon and layout.
+
 **2. Sidebar Menu**
 - **Menu Configuration:** Create a sidebar menu with options for Home, Get Recommendation, Skin Care Guide, and Contact Us. 
 - **Icons and Style:** Use icons for menu items and style the menu for better visual appeal and user experience.
+
 **3. Home Page**
 - **Introduction:** Provide an introduction to the application and explain its purpose and functionality.
 - **Video display:** Embed a video to give users a visual overview of the application and its features.
 - **Information:** Provide information about the skin care products available and encourage users to explore recommendations and skin care tips.
+
 **4. Get Recommendation Page**
 - **Input Selection:** Allow users to select their skin type, skin concerns, desired benefits, and brand preference. 
 - **Recommendation generation:** Recommend suitable skin care products based on user input using a content-based filtering algorithm. 
 - **Interactive Features:** Implement interactive elements such as dropdowns, multi-selects, and buttons for a seamless user experience.
+
 **5. Skincare Guide Page**
 - **Skincare Tips:** Present tips and tricks for maximizing the effectiveness of skincare products. 
 - **Visuals:** Add images to supplement the information provided and make the content more engaging. 
 - **Educational Content:** Educate users on the proper use and benefits of various skin care products and routines.
+
 **6. Contact Page**
 - **Contact Information:** View contact information for inquiries and feedback, including email, phone, website and social media links.
 - **Accessibility:** Ensure users can easily request help or more information.
