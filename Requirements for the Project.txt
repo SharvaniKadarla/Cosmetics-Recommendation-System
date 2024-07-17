@@ -1,0 +1,31 @@
+Install the below packages: pip install package_name
+ipykernel
+ipython
+matplotlib
+missingno
+nbformat
+numpy
+pandas
+Pillow
+plotly
+scikit-learn
+scipy
+seaborn
+streamlit
+streamlit-option-menu
+tensorflow
+
+TO INSTALL VIRTUAL ENVIRONMENT: python -m venv virtual_environment_name
+Example: python -m venv .venv
+
+PS C:> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser (if any permissions are required)
+
+TO ACTIVATE VIRTUAL ENVIRONMENT: <virtual_environment_name>\Scripts\Activate.ps1
+Example: <.venv>\Scripts\Activate.ps1
+
+EXECUTION STEPS:
+1. Run all the code cells of the Cosmetics_Recommendation_System.ipynb
+2. Now run the Cosmetics_Recommendation_System_App.py by entering the code 
+>streamlit run filename.py
+Example: >streamlit run Cosmetics_Recommendation_System_App.py
+3. Now the application website is opened
