@@ -1,4 +1,3 @@
-
 # Cosmetics Recommendation System
 
 This project introduces a Cosmetics Recommendation System to simplify skincare product choices amidst a vast market. It utilizes Content-Based Filtering (CBF) to match user preferences like skin type, product categories, and desired effects with a database of skincare products. Using TF-IDF vectorization, it analyzes user profiles and product descriptions to compute cosine similarity, providing personalized recommendations. This approach ensures informed skincare decisions tailored to individual needs, enhancing user satisfaction through effective algorithmic matching.
