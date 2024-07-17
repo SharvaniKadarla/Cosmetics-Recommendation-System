@@ -40,29 +40,29 @@ The dataset contains eight attributes, each providing essential insights into th
 
 Upon acquisition of the dataset, rigorous preprocessing procedures were conducted to ensure data quality and integrity. These preprocessing steps included:
 
-1. Handling Missing Values: The dataset was carefully examined for any missing values, and appropriate strategies were employed to either impute missing values or remove incomplete observations, ensuring the completeness of the dataset.
+**1. Handling Missing Values:** The dataset was carefully examined for any missing values, and appropriate strategies were employed to either impute missing values or remove incomplete observations, ensuring the completeness of the dataset.
 
-2.  Removing Duplicate Entries: Due to the nature of data scraping, duplicate entries were identified and subsequently removed to eliminate redundancy and maintain the uniqueness of each product record.
+**2.  Removing Duplicate Entries:** Due to the nature of data scraping, duplicate entries were identified and subsequently removed to eliminate redundancy and maintain the uniqueness of each product record.
 
-3. Encoding Categorical Features: Categorical features such as notable_effects and skintype were encoded into numerical representations using techniques such as one-hot encoding or label encoding. This transformation facilitated the inclusion of categorical data in machine learning models, enabling the extraction of meaningful insights and patterns.
+**3. Encoding Categorical Features:** Categorical features such as notable_effects and skintype were encoded into numerical representations using techniques such as one-hot encoding or label encoding. This transformation facilitated the inclusion of categorical data in machine learning models, enabling the extraction of meaningful insights and patterns.
 
 ## Exploratory Data Analysis (EDA)
 
 Exploratory data analysis (EDA) covered various aspects of the cosmetics dataset, including brand distribution, product types, skin type suitability, and notable effects. Through visualizations such as bar charts and pie charts, the study provided insights into market presence, product variety, consumer engagement, and product benefits. This comprehensive analysis provided valuable insight into the dynamics of the cosmetics industry and helped understand consumer preferences, market trends and product effectiveness.
 
-1. Brand Distribution Analysis: The study examined brand distribution to assess market presence, using bar charts to visualize product count per brand. Top brands were identified based on product count, revealing popularity and variety.
+**1. Brand Distribution Analysis:** The study examined brand distribution to assess market presence, using bar charts to visualize product count per brand. Top brands were identified based on product count, revealing popularity and variety.
 
 ![Brand Distribution Analysis](https://ibb.co/WGWNV1k)
 
-2. Product Type Distribution Analysis: The study examined product type distribution using pie charts, identified dominant types and their proportions, and provided insights into product diversity.
+**2. Product Type Distribution Analysis:** The study examined product type distribution using pie charts, identified dominant types and their proportions, and provided insights into product diversity.
 
 ![Product Type Distribution Analysis](https://ibb.co/wsYkSfP)
 
-3. Skin Type Suitability Analysis: Study of product suitability for different skin types. Bar charts visualize products suitable for each type and identify the predominant objectives. 
+**3. Skin Type Suitability Analysis:** Study of product suitability for different skin types. Bar charts visualize products suitable for each type and identify the predominant objectives. 
 
 ![Skin Type Suitability Analysis](https://ibb.co/SQhzhRk)
 
-4. Analysis of notable effects: Notable effects associated with cosmetic products were examined using pie charts to reveal the predominant effects of their frequencies.
+**4. Analysis of notable effects:** Notable effects associated with cosmetic products were examined using pie charts to reveal the predominant effects of their frequencies.
 
 ![Analysis of notable effects](https://ibb.co/YyKHs5r)
 
@@ -81,7 +81,7 @@ Exploratory data analysis (EDA) covered various aspects of the cosmetics dataset
 
 **1. TF-IDF (Term Frequency - Inverse Document Frequency) Vectorizer Implementation:** The modelling phase of the project focused on implementing the TF-IDF Vectorizer for the recommendation system. This involved using the tfidfvectorizer() function from the sklearn library to perform an IDF calculation on the notable_effects data. The notable_effects data was converted into a matrix form using TF-IDF vectors. 
 
-TF-IDF Matrix:
+**TF-IDF Matrix:**
 
 - Rows: Correspond to skin care products. 
 - Columns: Represent terms with notable effects. 
@@ -91,7 +91,7 @@ TF-IDF Matrix:
 
 **2. Cosine Similarity Calculation:** After TF-IDF transformation, cosine similarity values ​​were calculated to measure the similarity between different notable_effects categories. These ratings served as a quantitative representation of the similarity between pairs of products based on their notable effects.
 
-Cosine Similarity Matrix:
+**Cosine Similarity Matrix:**
 
 - Each row and column correspond to skin care products. 
 - Values ​​represent cosine similarity values ​​between pairs of products. 
