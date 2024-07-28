@@ -36,7 +36,7 @@ This project introduces a Cosmetics Recommendation System to simplify skincare p
 The dataset utilized in this study comprises comprehensive information about cosmetic products extracted from the Myntra website, specifically from the Myntra HackerRamp 2021 challenge. With a total of 966 products, the dataset serves as a valuable resource for training machine learning models aimed at predicting user preferences and recommending relevant cosmetic products.
 The dataset contains eight attributes, each providing essential insights into the characteristics of the products:
 
-![Dataset Description](https://ibb.co/XkyLvP2)
+![Dataset Description](https://ibb.co/Yyx15Q7)
 
 Upon acquisition of the dataset, rigorous preprocessing procedures were conducted to ensure data quality and integrity. These preprocessing steps included:
 
@@ -52,25 +52,25 @@ Exploratory data analysis (EDA) covered various aspects of the cosmetics dataset
 
 **1. Brand Distribution Analysis:** The study examined brand distribution to assess market presence, using bar charts to visualize product count per brand. Top brands were identified based on product count, revealing popularity and variety.
 
-![Brand Distribution Analysis](https://ibb.co/WGWNV1k)
+![Brand Distribution Analysis](https://ibb.co/9VN8Hjj)
 
 **2. Product Type Distribution Analysis:** The study examined product type distribution using pie charts, identified dominant types and their proportions, and provided insights into product diversity.
 
-![Product Type Distribution Analysis](https://ibb.co/wsYkSfP)
+![Product Type Distribution Analysis](https://ibb.co/RB59ch9)
 
 **3. Skin Type Suitability Analysis:** Study of product suitability for different skin types. Bar charts visualize products suitable for each type and identify the predominant objectives. 
 
-![Skin Type Suitability Analysis](https://ibb.co/SQhzhRk)
+![Skin Type Suitability Analysis](https://ibb.co/F6BbMYM)
 
 **4. Analysis of notable effects:** Notable effects associated with cosmetic products were examined using pie charts to reveal the predominant effects of their frequencies.
 
-![Analysis of notable effects](https://ibb.co/YyKHs5r)
+![Analysis of notable effects](https://ibb.co/84tWm4C)
 
 ## Algorithm Overview
 
 **Content-Based Filtering:** Content-based filtering is a recommendation system approach that analyzes the intrinsic characteristics of items to suggest similar items to users based on their preferences. By examining item characteristics such as skin types, notable effects, product type, and product description, the system identifies similarities between items and recommends those that match previous interactions or explicit feedback from the user. Unlike collaborative filtering, content-based filtering is not based on user behavior data and is therefore suitable for scenarios where this data may be limited or unreliable. This approach provides personalized recommendations tailored to individual user preferences, improving user experience and encouraging engagement with recommended items.
 
-![Difference between Collaborative and Content-Based Filtering](https://ibb.co/PC7XnWg)
+![Difference between Collaborative and Content-Based Filtering](https://ibb.co/GCFWNLT)
 
 **TF-IDF (Term Frequency - Inverse Document Frequency) Vectorizer:** TF-IDF Vectorizer is a text feature extraction method that converts a collection of documents into numerical vectors. In this case, notable effects of products are converted into numerical vectors that highlight the importance of terms in each document while taking into account their rarity across the entire data set. The TF-IDF matrix is ​​created, which represents the products and their notable effects. 
 
@@ -87,7 +87,7 @@ Exploratory data analysis (EDA) covered various aspects of the cosmetics dataset
 - Columns: Represent terms with notable effects. 
 - Values: TF-IDF values ​​quantify the importance of terms within each product. 
 
-![TF-IDF](https://ibb.co/vXN8csD)
+![TF-IDF](https://ibb.co/SQwGSLN)
 
 **2. Cosine Similarity Calculation:** After TF-IDF transformation, cosine similarity values ​​were calculated to measure the similarity between different notable_effects categories. These ratings served as a quantitative representation of the similarity between pairs of products based on their notable effects.
 
@@ -97,11 +97,11 @@ Exploratory data analysis (EDA) covered various aspects of the cosmetics dataset
 - Values ​​represent cosine similarity values ​​between pairs of products. 
 - Higher values ​​indicate greater similarity for notable effects.
 
-![Cosine Similarity](https://ibb.co/r6MzPXB)
+![Cosine Similarity](https://ibb.co/Y0j3X8n)
 
 **3. Recommendation Generation:** Cosine similarity scores were used to generate product recommendations within the recommendation system. The similarity scores formed the basis for identifying products with similar notable_effects and enabled personalized recommendations for users.
 
-![Recommendations Generated](https://ibb.co/CPmwr1g)
+![Recommendations Generated](https://ibb.co/S0PkKRR)
 
 
 
@@ -149,29 +149,29 @@ The proposed architecture for the project “Cosmetics Recommendation System” 
 
 **6. Recommendations:** Using TF-IDF and Cosine Similarity, the system suggests skin care products that best match user preferences, sorted by similarity scores for personalized and well-organized recommendations.
 
-![Architecture for Cosmetics Recommendation System](https://ibb.co/THcPCDN)
+![Architecture for Cosmetics Recommendation System](https://ibb.co/t8j1bsx)
 ## Experimental Results
 
 In this section, we present the results of the cosmetic recommendation system. We present the recommendations generated by the model based on user input and highlight the personalized nature of the suggestions. Through a detailed analysis of the results, we provide a comprehensive understanding of how the recommendation system works in real-world scenarios and its impact on improving user experience in the cosmetics industry.
 After executing the code, the website will open and display as shown below. The sidebar menu can be resized and also hidden.
 
-![Website look of the Cosmetics Recommendation System](https://ibb.co/f2nxXQm)
+![Website look of the Cosmetics Recommendation System](https://ibb.co/ctkJ8Gf)
 
 When the user clicks on the home page, the page appears like this:
 
-![Home Page](https://ibb.co/b2j2ZyH)
+![Home Page](https://ibb.co/nwf7Y1L)
 
 When the user interacts with the Get Recommendation page To get personalized recommendations for the products, the page looks like this:
 
-![Get Recommendation Page](https://ibb.co/1vHyHdR)
+![Get Recommendation Page](https://ibb.co/q0RvGVt)
 
 When the user clicks on the Skin Care Guide page, the page looks like this:
 
-![Skin Care Guide Page](https://ibb.co/WghP0qg)
+![Skin Care Guide Page](https://ibb.co/jG81FWh)
 
 When the user clicks on the contact page, the page looks like this
 
-![Contact Page](https://ibb.co/475HtN5)
+![Contact Page](https://ibb.co/XxcWDp1)
 ## Conclusion
 
 The Cosmetics Recommendation System is a cutting-edge solution carefully designed to revolutionize the way skin care recommendations are made. By incorporating sophisticated techniques such as content-based filtering, TF-IDF vectorization, and cosine similarity, this system provides a personalized approach to suggesting skin care products through an easy-to-use Streamlit web application interface. 
