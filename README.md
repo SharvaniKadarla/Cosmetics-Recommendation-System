@@ -36,7 +36,7 @@ This project introduces a Cosmetics Recommendation System to simplify skincare p
 The dataset utilized in this study comprises comprehensive information about cosmetic products extracted from the Myntra website, specifically from the Myntra HackerRamp 2021 challenge. With a total of 966 products, the dataset serves as a valuable resource for training machine learning models aimed at predicting user preferences and recommending relevant cosmetic products.
 The dataset contains eight attributes, each providing essential insights into the characteristics of the products:
 
-![Dataset Description](https://ibb.co/Yyx15Q7)
+![Dataset Description](https://i.postimg.cc/dQWYP5xh/1.png)
 
 Upon acquisition of the dataset, rigorous preprocessing procedures were conducted to ensure data quality and integrity. These preprocessing steps included:
 
